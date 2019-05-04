@@ -1,5 +1,3 @@
-# Bulpcoin Repository
-
 ### Coin Specs
 
 Coin Name | Bulpcoin
