@@ -1,0 +1,26 @@
+[Unit]
+Description=Bulpcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=bulpcoin
+Group=bulpcoin
+
+Type=forking
+PIDFile=/var/lib/bulpcoind/bulpcoind.pid
+
+ExecStart=/usr/bin/bulpcoind -daemon -pid=/var/lib/bulpcoind/bulpcoind.pid \
+          -conf=/etc/bulpcoin/bulpcoin.conf -datadir=/var/lib/bulpcoind
+
+ExecStop=-/usr/bin/bulpcoin-cli -conf=/etc/bulpcoin/bulpcoin.conf \
+         -datadir=/var/lib/bulpcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

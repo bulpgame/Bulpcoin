@@ -1,0 +1,26 @@
+# /etc/conf.d/bulpcoind: config file for /etc/init.d/bulpcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bulpcoin/bulpcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bulpcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bulpcoind.pid"
+
+# Where to write bulpcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bulpcoind"
+
+# User and group to own bulpcoind process
+#BITCOIND_USER="bulpcoin"
+#BITCOIND_GROUP="bulpcoin"
+
+# Path to bulpcoind executable
+#BITCOIND_BIN="/usr/bin/bulpcoind"
+
+# Nice value to run bulpcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
