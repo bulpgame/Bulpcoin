@@ -22,7 +22,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.bulp.ml
+Homepage: http://www.bulpcoingame.online
 Vcs-Git: git://github.com/bulpgame/bulpcoin.git
 Vcs-Browser: http://github.com/bulpgame/bulpcoin
 

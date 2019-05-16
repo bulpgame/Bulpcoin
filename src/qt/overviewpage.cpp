@@ -343,9 +343,9 @@ void OverviewPage::SetLinks()
     ui->labelLinks6->setText("Github:");
     ui->labelLinks7->setText("");
 
-    ui->labelLinksUrl1->setText("<a href=\"https://bulp.ml/\">https://bulp.ml/</a>");
-    ui->labelLinksUrl2->setText("<a href=\"https://bulp.ml/docs/BULP.pdf\">https://bulp.ml/docs/BULP.pdf</a>");
-    ui->labelLinksUrl3->setText("<a href=\"https://explorer.bulp.ml/\">https://explorer.bulp.ml/</a>");
+    ui->labelLinksUrl1->setText("<a href=\"https://bulpcoingame.online/\">https://bulpcoingame.online/</a>");
+    ui->labelLinksUrl2->setText("<a href=\"https://bulpcoingame.online/docs/BULP.pdf\">https://bulpcoingame.online/docs/BULP.pdf</a>");
+    ui->labelLinksUrl3->setText("<a href=\"https://bulp.coinexplorer.xyz/\">https://bulp.coinexplorer.xyz/</a>");
     ui->labelLinksUrl4->setText("<a href=\"https://discord.gg/utTnasr\">https://discord.gg/utTnasr</a>");
     ui->labelLinksUrl5->setText("<a href=\"https://twitter.com/BulpCoin\">https://twitter.com/BulpCoin</a>");
     ui->labelLinksUrl6->setText("<a href=\"https://github.com/bulpgame\">https://github.com/bulpgame</a>");

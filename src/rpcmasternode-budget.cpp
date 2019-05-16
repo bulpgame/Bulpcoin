@@ -173,8 +173,8 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal fee hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://bulp.ml/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500") +
-            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://bulp.ml/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500"));
+            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://bulpcoingame.online/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500") +
+            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://bulpcoingame.online/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500"));
 
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
@@ -267,8 +267,8 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://bulp.ml/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500") +
-            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://bulp.ml/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500"));
+            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://bulpcoingame.online/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500") +
+            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://bulpcoingame.online/t/test-proposal\" 2 820800 \"Bk39HssARwPds51FV9wSprCPzAxniVZeZ6\" 500"));
 
     // Check these inputs the same way we check the vote commands:
     // **********************************************************

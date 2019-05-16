@@ -175,7 +175,7 @@ genesis hash: 00000c9cbc78555e74fea2ddab4a9d3815ddbec5bca992e1137e9a74ee658267
         vSeeds.push_back(CDNSSeedData("144.217.224.88", "144.217.224.88"));
         vSeeds.push_back(CDNSSeedData("161.129.66.36", "161.129.66.36"));
         vSeeds.push_back(CDNSSeedData("140.82.52.45", "140.82.52.45"));
-        vSeeds.push_back(CDNSSeedData("explorer.bulp.ml", "explorer.bulp.ml"));
+        vSeeds.push_back(CDNSSeedData("explorer.bulpcoingame.online", "explorer.bulpcoingame.online"));
 
         fMiningRequiresPeers           = true;
         fAllowMinDifficultyBlocks      = false;

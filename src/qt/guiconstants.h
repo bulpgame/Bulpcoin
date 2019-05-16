@@ -55,7 +55,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Bulpcoin"
-#define QAPP_ORG_DOMAIN "bulp.ml"
+#define QAPP_ORG_DOMAIN "bulpcoingame.online"
 #define QAPP_APP_NAME_DEFAULT "Bulpcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Bulpcoin-Qt-testnet"
 
