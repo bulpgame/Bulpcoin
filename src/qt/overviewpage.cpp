@@ -348,6 +348,6 @@ void OverviewPage::SetLinks()
     ui->labelLinksUrl3->setText("<a href=\"https://bulp.coinexplorer.xyz/\">https://bulp.coinexplorer.xyz/</a>");
     ui->labelLinksUrl4->setText("<a href=\"https://discord.gg/utTnasr\">https://discord.gg/utTnasr</a>");
     ui->labelLinksUrl5->setText("<a href=\"https://twitter.com/BulpCoin\">https://twitter.com/BulpCoin</a>");
-    ui->labelLinksUrl6->setText("<a href=\"https://github.com/bulpgame\">https://github.com/bulpgame</a>");
+    ui->labelLinksUrl6->setText("<a href=\"https://github.com/bulpgame/Bulpcoin\">https://github.com/bulpgame/Bulpcoin</a>");
     ui->labelLinksUrl7->setText("");
 }
