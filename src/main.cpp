@@ -2190,7 +2190,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
-    if (pindex->nHeight > 67000 ) {
+    if (pindex->nHeight > 20000 ) {
         if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {
             return state.DoS(100,
                 error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",
